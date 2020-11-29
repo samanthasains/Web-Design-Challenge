@@ -1,0 +1,63 @@
+element.style {
+}
+body .header-main__wrapper, html .header-main__wrapper {
+    width: 100%;
+    line-height: 1.5!important;
+    font-size: 12pt!important;
+    margin: 0!important;
+}
+.header-main__wrapper {
+    position: fixed;
+    width: 100%;
+    margin: 0 0 auto 0;
+    z-index: 1024!important;
+    height: 70px;
+    background-color: var(--gfg-tint-color);
+    box-shadow: 0 15px 10px -15px #1111112b;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: Roboto,sans-serif;
+    text-rendering: optimizeLegibility;
+    color: rgba(0,0,0,.84);
+}
+body {
+    line-height: 1;
+}
+:root {
+    --font-sofia: sofia-pro,sans-serif;
+    --font-din: "urw-din",sans-serif;
+    --transition-time: 0.4s;
+    --color-gfg: #308D46;
+    --color-black: #273239;
+    --gfg-body-color: white;
+    --gfg-tint-color: white;
+    --gfg-selected-color: #ececec;
+    --gfg-title-color: #121212;
+    --gfg-subtitle-color: #121212;
+    --gfg-tags-color: #989898;
+    --gfg-text-color: #989898;
+    --gfg-color-lg: #6d6d6d;
+    --gfg-grey-bg: #F9F9F9;
+    --gfg-darkgrey: #ebebeb;
+    --gfg-light-bg: #D7EFEE;
+    --gfg-tags-base-color: #308D46;
+    --font-section-head: 27.5pt;
+    --font-section-subhead: 14pt;
+    --font-article-head: 14pt;
+    --font-article-subtext: 12pt;
+    --font-article-text: 10pt;
+    --font-article-tags: 10pt;
+    --font-w-article-head: 600;
+    --font-w-article-text: 400;
+}
